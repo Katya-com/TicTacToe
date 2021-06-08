@@ -42,9 +42,12 @@ function checkGameBoard() {
             document.getElementById('2_0').innerText)
 
     }
-    function checkWinner(first, second, third) {
-        if (first != "" && first == second && first == third)
-            alert('You WIN')
+
+}
+function checkWinner(first, second, third) {
+    if (first != "" && first == second && first == third) {
+        alert('WIN')
         won = true
     }
+        
 }
